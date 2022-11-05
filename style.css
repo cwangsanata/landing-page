@@ -6,10 +6,82 @@ html, body {
     font-family: "roboto", sans-serif;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {
     display: flex;
+    flex-direction: column;
     background-color: #1F2937;
+    color: white;
+}
+
+#header-top {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.header a {
+    color: white;
+    margin: 0.5em;
+}
+
+.logo {
+    margin: 1em;
+}
+
+#header-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-bottom-left {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    width: 20rem;
+}
+
+.info-layer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-layer h2 {
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: 1em;
+    border: 0.125em solid black;
+    border-radius: 1em;
+    justify-content: center;
+}
+
+.quote-layer {
+    display: flex;
+    background-color: #E5E7EB;
+}
+
+.signup-layer {
+
+}
+
+.footer {
+    display: flex;
+
 }
 
