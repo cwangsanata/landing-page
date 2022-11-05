@@ -6,11 +6,19 @@ html, body {
     font-family: "roboto", sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+.info-layer,
+.quote-layer
+{
+    margin: 2em 0em;
 }
 
 .header {
@@ -18,41 +26,51 @@ a {
     flex-direction: column;
     background-color: #1F2937;
     color: white;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#header-top, 
+#header-bottom {
+    margin: 1rem 0;
+    gap: 20rem;
 }
 
 #header-top {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
 }
 
 .header a {
-    color: white;
     margin: 0.5em;
 }
 
 .logo {
     margin: 1em;
+    font-size: 1em;
 }
 
 #header-bottom {
     display: flex;
     justify-content: space-between;
+    flex: 2 1 auto;
 }
 
 #header-bottom-left {
     display: flex;
     flex-direction: column;
-    margin: 1em;
     width: 20rem;
+}
+
+#header-bottom-right {
+    display: flex;
+    flex-direction: column;
 }
 
 .info-layer {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.info-layer h2 {
 }
 
 .card-container {
@@ -73,15 +91,51 @@ a {
 
 .quote-layer {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #E5E7EB;
 }
 
-.signup-layer {
+.quote-layer p {
+    width: 20em;
+}
 
+.quote-layer h4 {
+    justify-self: right;
+    margin-left: auto;
+    margin-right: 0;
+    width: 20em;
+}
+
+.signup-layer {
+    display: flex;
+    justify-content: center;
+    margin: -1em 0 1em;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    border: 0.25em solid #3882F6;
+    border-radius: 1em;
+    width: 50em;
+}
+
+.signup-container button {
+    border: 0.125em solid white;
+    border-radius: 1em;
+    padding: 0.5em;
 }
 
 .footer {
     display: flex;
-
+    justify-content: center;
+    background-color: #1F2937;
+    
 }
 
+.footer a {
+    margin: 2em;
+}
