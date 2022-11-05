@@ -28,6 +28,7 @@ a {
     color: white;
     align-items: center;
     justify-content:space-between;
+    padding-bottom: 2em;
 }
 
 #header-top, 
@@ -46,8 +47,8 @@ a {
 }
 
 .logo {
-    margin: 1em;
-    font-size: 1em;
+    width: 100px;
+    height: 100px;
 }
 
 #header-bottom {
@@ -62,9 +63,21 @@ a {
     width: 20rem;
 }
 
+#header-bottom-left button {
+    border: 0.125em solid #3882F6;
+    background-color: #3882F6;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
 #header-bottom-right {
     display: flex;
     flex-direction: column;
+}
+
+#header-bottom-right img{
+    transform: rotate(90deg);
+    height: 300px;
 }
 
 .info-layer {
@@ -94,17 +107,15 @@ a {
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
+    padding: 2em;
 }
 
 .quote-layer p {
-    width: 20em;
+    width: 30em;
 }
 
 .quote-layer h4 {
     justify-self: right;
-    margin-left: auto;
-    margin-right: 0;
-    width: 20em;
 }
 
 .signup-layer {
@@ -121,6 +132,7 @@ a {
     border: 0.25em solid #3882F6;
     border-radius: 1em;
     width: 50em;
+    margin: 2em;
 }
 
 .signup-container button {
@@ -133,7 +145,6 @@ a {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
-    
 }
 
 .footer a {
