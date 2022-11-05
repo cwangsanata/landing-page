@@ -1,2 +1,3 @@
 # landing-page
-Landing page beginning web developer project.
+Demo CSS Project showing principle of standard
+HTML5 and CSS design.
