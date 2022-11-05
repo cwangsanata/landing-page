@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+
